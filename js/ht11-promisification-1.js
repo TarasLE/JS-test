@@ -1,13 +1,13 @@
 console.log("promisification");
 
 const delay = ms => {
-const prom = new Promise((resolve, reject) => {
+return new Promise((resolve, reject) => {
   setTimeout(() => {
-     resolve(`${ms}`);
+     resolve(ms);
   }, ms);
   
 });
-    return prom
+   
 };
 
 
