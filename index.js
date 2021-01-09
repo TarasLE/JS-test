@@ -10,3 +10,5 @@ const foo = function(callback) {
 };
 
 foo(person.showName);
+
+
